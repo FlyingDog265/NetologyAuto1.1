@@ -26,7 +26,7 @@ public class CashbackHackServiceTest {
     @Test
     public void shouldReturn0WithAmount1000() {
         int actual = service.remain(1000);
-        int excepted = 1000;
+        int excepted = 0;
 
         assertEquals(actual, excepted);
     }
