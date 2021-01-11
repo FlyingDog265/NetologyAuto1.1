@@ -11,7 +11,6 @@ public class CashbackHackServiceTest {
     public void shouldReturn1000WithAmount0() {
         int actual = service.remain(0);
         int excepted = 1000;
-
         assertEquals(actual, excepted);
     }
 
@@ -19,7 +18,6 @@ public class CashbackHackServiceTest {
     public void shouldReturn100WithAmount900() {
         int actual = service.remain(500);
         int excepted = 500;
-
         assertEquals(actual, excepted);
     }
 
@@ -27,7 +25,6 @@ public class CashbackHackServiceTest {
     public void shouldReturn0WithAmount1000() {
         int actual = service.remain(1000);
         int excepted = 1000;
-
         assertEquals(actual, excepted);
     }
 
