@@ -13,4 +13,4 @@ jobs: # какие задачи делаем
       with:
         java-version: 11
     - name: Build with Gradle
-      run: ./gradlew clean test
+      run: ./gradlew build
